@@ -1,0 +1,31 @@
+from app.api.routes import (
+    audit,
+    auth,
+    bids,
+    billing,
+    documents,
+    messages,
+    plans,
+    projects,
+    residents,
+    signatures,
+    subscriptions,
+    users,
+    workflow,
+)
+
+__all__ = [
+    "audit",
+    "auth",
+    "bids",
+    "billing",
+    "documents",
+    "messages",
+    "plans",
+    "projects",
+    "residents",
+    "signatures",
+    "subscriptions",
+    "users",
+    "workflow",
+]
